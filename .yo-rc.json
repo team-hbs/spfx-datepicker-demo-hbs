@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "spfx-datepicker",
+    "libraryId": "f9590c0a-9a13-4fb0-aef4-eb4b3c899c31",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-datepicker",
+    "solutionShortDescription": "spfx-datepicker description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

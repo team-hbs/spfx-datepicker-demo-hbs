@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-datepicker-client-side-solution",
+    "id": "f9590c0a-9a13-4fb0-aef4-eb4b3c899c31",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-datepicker description"
+      },
+      "longDescription": {
+        "default": "spfx-datepicker description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-datepicker Feature",
+        "description": "The feature that activates elements of the spfx-datepicker solution.",
+        "id": "87209bdd-fd4b-4592-b5cb-477f64b20403",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-datepicker.sppkg"
+  }
+}

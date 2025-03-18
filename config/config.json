@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-date-picker-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxDatePickerDemo/SpfxDatePickerDemoWebPart.js",
+          "manifest": "./src/webparts/spfxDatePickerDemo/SpfxDatePickerDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxDatePickerDemoWebPartStrings": "lib/webparts/spfxDatePickerDemo/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
